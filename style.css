@@ -1,0 +1,121 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: aqua;
+    overflow: auto;
+    margin-top: 20px;
+    padding-top: 50px;
+    border: 5px black dashed;
+    padding-bottom: 50px;
+}
+
+.gallery {
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+    width: 390px;
+    float: left;
+}
+
+.gallery img{
+    width: 100%;
+    height:auto;
+    
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Bookman Old Style';
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #91919191,
+    1px 2px 1px #91919191,
+    1px 3px 1px #91919191,
+    1px 4px 1px #91919191,
+    1px 5px 1px #91919191,
+    1px 6px 1px #91919191,
+    1px 7px 1px #91919191,
+    1px 8px 1px #91919191,
+    1px 9px 1px #91919191,
+    1px 10px 1px #91919191,
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2),
+    1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+
+
+    
+}
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    overflow: hidden;
+    transition: transform 2s;
+    border: 3px black solid;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
+.hr {
+    font-size: 25px;
+    text-align: center;
+    float: none;
+    margin-left: 250px;
+    width: 70%;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #91919191,
+    1px 2px 1px #91919191,
+    1px 3px 1px #91919191,
+    1px 4px 1px #91919191,
+    1px 5px 1px #91919191,
+    1px 6px 1px #91919191,
+    1px 7px 1px #91919191,
+    1px 8px 1px #91919191,
+    1px 9px 1px #91919191,
+    1px 10px 1px #91919191,
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2),
+    1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+
+
+    
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    font-size: 20px;
+    background-color: #008000;
+    width: 100%;
+    text-align: center;
+    width: 50%;
+    margin-left: 350px;
+    border-radius: 70px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+.conclusion{
+    font-size: 25px;
+    text-align: right;
+    font-family: monospace 'Comic Sans MS' ;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Bebas Neue' ;
+}
+
+.conclusion img{
+    width: 120px;
+    text-align: left;
+    margin-bottom: 20px;
+}
